@@ -1,5 +1,5 @@
 
-import { Page, ServiceTier, AddOn } from './types';
+import { ServiceTier, AddOn } from './types';
 
 export const COLORS = {
   WHITE: '#FAFAFA',

@@ -6,7 +6,7 @@ interface DiscoveryCallProps {
   onNavigate: (page: Page) => void;
 }
 
-const DiscoveryCall: React.FC<DiscoveryCallProps> = ({ onNavigate }) => {
+const DiscoveryCall: React.FC<DiscoveryCallProps> = () => {
   return (
     <div className="pt-32 pb-24 bg-[#FAFAFA]">
       {/* Hero Section */}

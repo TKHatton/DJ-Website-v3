@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm run build:*)",
+      "Bash(npm run dev:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd Vite build system and configure for Netlify deployment\n\nSet up complete build pipeline to fix blank page issue on deployment:\n- Add Vite + TypeScript build configuration\n- Restructure project with src/ directory for proper module bundling\n- Configure Netlify deployment settings \\(build command, publish directory, SPA routing\\)\n- Add all required dependencies \\(React, TypeScript, Vite\\)\n- Fix TypeScript compilation errors\n- Update index.html to load bundled application\n\nThe site now builds properly and deploys successfully to Netlify.\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}
