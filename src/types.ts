@@ -2,6 +2,7 @@
 export enum Page {
   Home = 'home',
   Services = 'services',
+  Courses = 'courses',
   HowItWorks = 'how-it-works',
   WhyThisMatters = 'why-this-matters',
   OurApproach = 'our-approach',

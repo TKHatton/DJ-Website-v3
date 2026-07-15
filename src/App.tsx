@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Services from './pages/Services';
+import Courses from './pages/Courses';
 import HowItWorks from './pages/HowItWorks';
 import OurApproach from './pages/OurApproach';
 import WhyThisMatters from './pages/WhyThisMatters';
@@ -19,6 +20,8 @@ const App: React.FC = () => {
         return <Home onNavigate={setCurrentPage} />;
       case Page.Services:
         return <Services onNavigate={setCurrentPage} />;
+      case Page.Courses:
+        return <Courses onNavigate={setCurrentPage} />;
       case Page.HowItWorks:
         return <HowItWorks onNavigate={setCurrentPage} />;
       case Page.OurApproach:

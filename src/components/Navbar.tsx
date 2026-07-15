@@ -13,6 +13,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
   const navItems = [
     { label: 'Home', value: Page.Home },
     { label: 'Services', value: Page.Services },
+    { label: 'Academy', value: Page.Courses },
     { label: 'How It Works', value: Page.HowItWorks },
     { label: 'Why This Matters', value: Page.WhyThisMatters },
     { label: 'Our Approach', value: Page.OurApproach },

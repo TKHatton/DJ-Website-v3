@@ -127,6 +127,78 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
           </div>
         </section>
 
+        {/* Section: Academy */}
+        <section className="py-32 bg-[#FAFAFA]">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="bg-white p-12 md:p-20 rounded-[3rem] border border-[#E5E5E5]">
+              <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                  <p className="text-[#C17854] font-bold uppercase tracking-[0.2em] text-xs mb-6">Digital Jaywalking Academy</p>
+                  <h2 className="text-4xl md:text-5xl font-bold text-[#333333] mb-6 leading-tight">Learn to do it yourself</h2>
+                  <p className="text-lg text-[#666666] leading-relaxed mb-8">
+                    Self-paced courses, live cohorts, and custom consultations to help you and your team work confidently with AI — from your first prompt to full implementation.
+                  </p>
+                  <ul className="space-y-4 mb-10">
+                    <li className="flex items-start text-[#666666]">
+                      <span className="text-[#C17854] mr-3 text-lg">✓</span>
+                      <span><strong className="text-[#333333]">Self-paced:</strong> Claude Architect Prep ($67), AI Foundations ($197), Deep-Dive Workshops ($47)</span>
+                    </li>
+                    <li className="flex items-start text-[#666666]">
+                      <span className="text-[#C17854] mr-3 text-lg">✓</span>
+                      <span><strong className="text-[#333333]">Cohort-based:</strong> 4-Week AI Implementation ($500), AI for Business Leaders ($750)</span>
+                    </li>
+                    <li className="flex items-start text-[#666666]">
+                      <span className="text-[#C17854] mr-3 text-lg">✓</span>
+                      <span><strong className="text-[#333333]">Consulting:</strong> Readiness Audits, Custom Training, and Transformation Retainers</span>
+                    </li>
+                  </ul>
+                  <button 
+                    onClick={() => onNavigate(Page.Courses)}
+                    className="px-8 py-4 bg-[#333333] text-white font-bold rounded-xl hover:bg-[#C17854] transition-all"
+                  >
+                    View Academy Programs
+                  </button>
+                </div>
+                <div className="bg-[#F5F5F5] p-10 rounded-[2rem]">
+                  <div className="text-center mb-6">
+                    <p className="text-xs font-bold uppercase tracking-widest text-[#999999] mb-2">Most Popular</p>
+                    <h3 className="text-3xl font-bold text-[#333333]">AI Architect Prep</h3>
+                    <p className="text-4xl font-bold text-[#C17854] mt-2">$67</p>
+                  </div>
+                  <div className="space-y-3 text-sm text-[#666666]">
+                    <div className="flex justify-between">
+                      <span>Practice Questions</span>
+                      <span className="font-bold text-[#333333]">422</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span>Mock Exams</span>
+                      <span className="font-bold text-[#333333]">Timed (120 min)</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span>Score Tracking</span>
+                      <span className="font-bold text-[#333333]">100–1000 scale</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span>Weak-Spot Drills</span>
+                      <span className="font-bold text-[#333333]">✓</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span>Study Plan</span>
+                      <span className="font-bold text-[#333333]">4 weeks</span>
+                    </div>
+                  </div>
+                  <button 
+                    onClick={() => onNavigate(Page.Courses)}
+                    className="w-full mt-6 py-3 bg-[#C17854] text-white font-bold rounded-lg hover:bg-[#B86F47] transition-all"
+                  >
+                    Start Passing
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Section: The Shift */}
         <section className="py-32 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-[#333333] rounded-[3rem] p-12 md:p-24 text-white relative overflow-hidden">
